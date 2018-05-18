@@ -1,0 +1,24 @@
+{
+  "name": "thrillers-ng",
+  "version": "1.0.0",
+  "description": "Frontend Challenger for the Thrillers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thrillersng/frontend-challenge.git"
+  },
+  "author": "Harrison Ifeanyichukwu <Harrisonifeanyichukwu@gmail.com> (http://fjsfoundations.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thrillersng/frontend-challenge/issues"
+  },
+  "homepage": "https://github.com/thrillersng/frontend-challenge#readme",
+  "dependencies": {
+    "bootstrap": "4.1.1",
+    "jquery": "3.3.1",
+    "popper.js": "1.14.3"
+  }
+}
