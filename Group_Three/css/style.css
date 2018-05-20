@@ -19,6 +19,15 @@ li > a > img{
 li{
     font-size: 1rem;
 }
+ul{
+    border-right: 1px white solid;
+}
+.navbar-right{
+    border-left: 1px white solid;
+}
+.container-fluid{
+    border-bottom: 1px white solid;
+}
 .content{
    margin-right:20%;
    margin-left:20%;
