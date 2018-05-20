@@ -1,5 +1,5 @@
 
-body{
+body, .form-control, .btn{
     background-color: black;
 }
 li > a > img{
@@ -7,32 +7,26 @@ li > a > img{
     height:auto;
 }
  .form-group{
-     background-color: black;
-     display:flex !important;
-     width:250px;
- }
- .form-control{
-     background-color:black;
- }
- .btn{
-     background-color: black;
+     display:flex !important;    
  }
  .glyphicon{
      color:white;
      width:30px;
  }
-ul{
-    display: flex;
-    flex-wrap: flex;
+.navbar{
+    background-color: black;
 }
 li{
-    width:80px;
+    font-size: 1rem;
 }
-
 .content{
    margin-right:20%;
    margin-left:20%;
-
+   margin-top:70px;
+}
+h2{
+    color: #ffffff;
+    margin-left:15px;
 }
 footer{
     background-color: grey;
@@ -50,4 +44,5 @@ footer{
 .row> button{
     float:right;
     margin-right:15px;
+    background-color: orange;
 }
