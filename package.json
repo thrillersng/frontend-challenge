@@ -4,6 +4,7 @@
   "description": "Frontend Challenger for the Thrillers",
   "main": "index.js",
   "scripts": {
+    "build:css": "sass --watch src/css:dist/css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
