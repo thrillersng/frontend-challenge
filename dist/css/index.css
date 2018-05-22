@@ -1,0 +1,39 @@
+/**
+ * style the showings
+*/
+.showing {
+  padding-left: 0;
+  padding-right: 0; }
+  .showing.tonight-showing {
+    background: red;
+    background-image: url(); }
+  .showing.week-showing {
+    background: orange;
+    background-image: url(); }
+  .showing .background-overlay {
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.4); }
+  .showing-header {
+    background: #fff;
+    display: inline-block;
+    padding: 7px 30px;
+    font-size: 1.2em;
+    text-align: center; }
+    .showing-header > span {
+      display: block; }
+  .showing.tonight-showing .showing-header {
+    color: red; }
+  .showing.week-showing .showing-header {
+    color: orange; }
+  .showing .series {
+    padding-bottom: 30px; }
+    .showing .series-header {
+      text-align: center;
+      color: #fff;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+    .showing .series-item > div {
+      height: 120px;
+      background: #000; }
+
+/*# sourceMappingURL=index.css.map */
