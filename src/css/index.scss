@@ -1,0 +1,68 @@
+/**
+ * style the showings
+*/
+$week-showing-color: orange;
+$tonight-showing-color: red;
+
+.showing {
+    padding-left: 0;
+    padding-right: 0;
+
+    //style specific showing
+    &.tonight-showing {
+        background: $tonight-showing-color; //default background color
+        background-image: url();
+    }
+
+    &.week-showing {
+        background: $week-showing-color; //default background color
+        background-image: url();
+    }
+
+    //style the background overlay. the overlay is what overlaps the background image
+    .background-overlay {
+        padding: 20px 15px;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    //style the showing headers. the headers are the topmost writeups
+    &-header {
+        background: #fff;
+        display: inline-block;
+        padding: 7px 30px;
+        font-size: 1.2em;
+        text-align: center;
+
+        //style the span elements. make them block elements.
+        > span {
+            display: block;
+        }
+    }
+
+    //style specific header color
+    &.tonight-showing &-header {
+        color: $tonight-showing-color;
+    }
+    &.week-showing &-header {
+        color: $week-showing-color;
+    }
+
+    //style the series
+    .series {
+        padding-bottom: 30px;
+
+        //style the series header
+        &-header {
+            text-align: center;
+            color: #fff;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        //style the series items
+        &-item > div {
+            height: 120px;
+            background: #000;
+        }
+    }
+}
