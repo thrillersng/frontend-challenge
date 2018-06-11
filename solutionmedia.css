@@ -1,0 +1,106 @@
+
+body, .form-control, .btn{
+    background-color: black;
+}
+
+li{
+    font-size: 1rem;
+}
+ul{
+    border-right: 1px white solid;
+}
+.navbar-right{
+    border-left: 1px white solid;
+}
+.container-fluid{
+    border-bottom: 1px white solid;
+}
+.glyphicon{
+    color:white;
+    width:30px;
+}
+.nav-item active{
+    color:white;
+}
+.navbar{
+    background-color:black !important;
+    margin-top: 0;
+}
+
+.nav-link,.navbar-brand{
+    color:white !important;
+}
+.line {
+    border-top: 2px solid #ffffff;
+}
+.Baloon{
+    color: goldenrod;
+    margin-left:20px;
+    padding-left: 22rem;
+}
+.row {
+    width:100% !important;
+}
+li{
+    font-size: 1rem;
+}
+.col-md-9, .col-xs-7{
+    background-color:white;
+    padding:0px 5px 0px 20px;
+}
+.col-xs-5, .col-md-3 {
+    height:100% !important;
+}
+ul{
+    border-right: 1px white solid;
+}
+
+h2{
+    color: #ffffff;
+    margin-left:15px;
+}
+footer{
+    background-color: grey;
+    text-align: center;
+}
+
+.cover{
+    background:url(Baloon.jpg);
+    size:100%;
+}
+
+.nav-link:hover{
+    background: goldenrod;
+}
+
+ .row{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.row> button{
+    float:right;
+    margin-right:15px;
+    background-color: orange;
+}
+
+.row> button:hover{
+    background: gold;
+}
+
+.content{
+    margin-right:15%;
+   margin-left:15%;
+   margin-top:40px;
+}
+
+.link{
+    width: 25px;
+    height: 25px;
+}
+.vertical{
+    border-right: 2px solid white;
+}
+
+.space{
+    line-height: 1px;
+}

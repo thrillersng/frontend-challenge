@@ -1,0 +1,10 @@
+.textColor{
+    color:white
+}
+
+#sideleft{
+    float:left;
+    width:2200px;
+    margin:20px 0px;
+    padding: 30px;
+}
