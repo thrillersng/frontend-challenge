@@ -1,0 +1,188 @@
+
+body, .form-control, .btn{
+    background-color: black;
+    
+}
+
+li{
+    font-size: 1rem;
+}
+ul{
+    border-right: 1px white solid;
+}
+.navbar-right{
+    border-left: 1px white solid !important;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.container-fluid{
+    border-bottom: 1px white solid;
+}
+.glyphicon{
+    color:white;
+    width:30px;
+}
+.nav-item active{
+    color:white;
+}
+.navbar{
+    background-color:black !important;
+    margin-top: 0;
+    
+}
+
+.nav-link,.navbar-brand{
+    color:white !important;
+    font-display: arial;
+    margin-bottom:-5px;
+     font-family:"montserrat,Sans"; 
+     font-weight:800;
+}
+.line {
+    border-top: 2px solid #ffffff;
+}
+.Baloon{
+    color: goldenrod;
+    margin-left:20px;
+    padding-left: 22rem;
+}
+.row {
+    width:100% !important;
+}
+li{
+    font-size: 1rem;
+}
+.col-md-9, .col-xs-7{
+    background-color:white;
+    padding:0px 5px 0px 20px;
+}
+.col-xs-5, .col-md-3 {
+    height:100% !important;
+}
+ul{
+    border-right: 1px white solid;
+}
+
+h2{
+    color: #ffffff;
+    margin-left:15px;
+}
+footer{
+    background-color: grey;
+    text-align: center;
+}
+
+.cover{
+    background:url(Baloon.jpg);
+    size:100%;
+}
+
+.nav-link:hover{
+    background: goldenrod;
+}
+
+ .row{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.row> button{
+    float:right;
+    margin-right:15px;
+    background-color: orange;
+}
+
+.row> button:hover{
+    background: gold;
+}
+
+.content{
+    margin-right:15%;
+   margin-left:15%;
+   margin-top:40px;
+}
+
+.link{
+    width: 25px;
+    height: 25px;
+}
+.vertical{
+    border-right: 2px solid white;
+}
+
+.space{
+    line-height: 1px;
+}
+
+/*styling the events page*/
+.showing {
+    padding-left: 0;
+    padding-right: 0; 
+}
+    .showing.tonight-showing {
+      background: red;
+      background-image: url();
+     }
+    .showing.week-showing {
+      background: orange;
+      background-image: url();
+     }
+    .showing .background-overlay {
+      padding: 20px 15px;
+      background-color: rgba(0, 0, 0, 0.4); 
+    }
+    .showing-header {
+      background: #fff;
+      display: inline-block;
+      padding: 7px 30px;
+      font-size: 1.2em;
+      text-align: center; 
+    }
+      .showing-header > span {
+        display: block; }
+    .showing.tonight-showing .showing-header {
+      color: red; 
+    }
+    .showing.week-showing .showing-header {
+      color: orange; 
+    }
+    .showing .series {
+      padding-bottom: 30px; 
+    }
+      .showing .series-header {
+        text-align: center;
+        color: #fff;
+        padding-top: 20px;
+        padding-bottom: 20px; 
+    }
+      .showing .series-item > div {
+        height: 120px;
+        background: #000;
+     }
+
+     .fs{
+        font-family:"montserrat,Sans";
+        padding-left: 20px;
+     }
+
+     .form-control,.btn-outline-success{
+        font-family:"Sans,montserrat";
+        border-color: #000;
+        font-style: italic;
+        text-align: center;
+        padding-left: 10px;
+     }
+     .form-control:hover,.btn-outline-success:hover{
+         background-color: white;
+     }
+
+     .search_tab{
+         padding-left:50px;
+     }
+     .soc{
+        padding-left: 10px;
+     }
+
+     .soc1{
+         padding-right: 15px;
+     }
+    
