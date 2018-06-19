@@ -1,0 +1,57 @@
+
+body, .form-control, .btn{
+    background-color: black;
+}
+li > a > img{
+    width:30px;
+    height:auto;
+}
+ .form-group{
+     display:flex !important;    
+ }
+ .glyphicon{
+     color:white;
+     width:30px;
+ }
+.navbar{
+    background-color: black;
+}
+li{
+    font-size: 1rem;
+}
+ul{
+    border-right: 1px white solid;
+}
+.navbar-right{
+    border-left: 1px white solid;
+}
+.container-fluid{
+    border-bottom: 1px white solid;
+}
+.content{
+   margin-right:20%;
+   margin-left:20%;
+   margin-top:70px;
+}
+h2{
+    color: #ffffff;
+    margin-left:15px;
+}
+footer{
+    background-color: grey;
+    text-align: center;
+}
+
+.col-md-9, .col-xs-7{
+    background-color:white;
+    padding:20px 10px 10px 20px;
+}
+.row{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.row> button{
+    float:right;
+    margin-right:15px;
+    background-color: orange;
+}
